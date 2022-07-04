@@ -20,18 +20,23 @@ header {
     color: #F9FAF8;
     justify-content: space-between;
     align-items: center;
-    padding-left: 250px;
+    padding-left: 10%;
 }
 
 .menu {
-    align-items: flex-end;
+    display: flex;
+    /*align-items: flex-end;*/
     font-size: 18px;
     font: #E5E7EB;
-    padding-right: 250px;
-    gap: 28px;
+    padding-right: 10%;
+    gap: 25px;
 }
 
 a:link {
     color: #E5E7Eb;
     text-decoration: none; 
+}
+a:hover {
+    color: yellow;
+    text-decoration: none;
 }

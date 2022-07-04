@@ -1,4 +1,10 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(font/Roboto-Regular.ttf)
+}
+
 * {
+    font-family: 'Roboto';
     margin: 0px;
 }
 
@@ -6,7 +12,6 @@ header {
     background-color: #1F2937;
     padding-top: 20px; 
     padding-bottom: 20px;
-    
 }
 
 .title {
@@ -23,7 +28,7 @@ header {
     font-size: 18px;
     font: #E5E7EB;
     padding-right: 250px;
-    gap: 8px;
+    gap: 28px;
 }
 
 a:link {

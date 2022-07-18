@@ -2,27 +2,35 @@
     font-family: 'Roboto';
     src: url(font/Roboto-Regular.ttf)
 }
-
+html {
+    background-color: black;
+}
 * {
     font-family: 'Roboto';
     margin: 0px;
+    
+    
 }
 /* Header style section */
-header {
+.main-container {
     background-color: #1F2937;
     padding-top: 20px; 
     /*padding-bottom: 200px;*/
     padding-left: 10%;
     padding-right: 10%;
+    margin: 0px 75px;
 }
 
 .container1 {
     display: flex;
-    /*font-size: 24px;*/
+   /*  font-size: 24px;*/
     color: #F9FAF8;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 25px;
+    border: 2px red;
+    border-style: dashed;
+    
 }
 
 h1 {font-size: 24px;
@@ -36,11 +44,12 @@ color: #F9FAF8;
 .herosubtxt {
     font-size: 18px;
     font: #d4d6da;
+    padding-right: 50px;
 }
 
 .menu {
     display: flex;
-    /*align-items: flex-end;*/
+    align-items: flex-end;
     font-size: 18px;
     font: #E5E7EB;
    /* padding-right: 10%;*/
@@ -56,9 +65,64 @@ a:hover {
     text-decoration: none;
 }
 
-img {
-    width: 400px;
+.img1 {
+    width: 450px;
     height: auto;
 }
 
+button {
+    color: white;
+    font-size: 18px;
+    background-color: #3882f6;
+    padding: 10px 24px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
 /* body style section */
+
+h2 {
+    text-align: center;
+    padding: 25px 0px;
+    font-size: 36px;
+    font: #1F2937; 
+    font-weight: 700;
+}
+
+.main-container2 {
+    background-color: white;
+    padding-top: 20px; 
+    padding-bottom: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0px 75px;
+}
+
+.container2 {
+    display: flex;
+   /*  font-size: 24px;
+    color: #F9FAF8;*/
+    justify-content: space-between;
+    /*align-items: center;*/
+    padding: 0px 150px 100px 150px;
+    /*padding-bottom: 100px;*/
+    border: 2px green;
+    border-style: dashed; 
+}
+
+.kolom1 {
+    width: 175px;
+    gap: 50px;
+}
+.img2 {
+    /*border-image-outset: 5px;*/
+    border-image: 5px;
+   /*   border: 2px blue;*/
+    border-style: solid;
+    border-radius: 10%;
+    margin-bottom: 25px;
+    width: 150px;
+    height: 150px;
+    padding: 2px;
+    
+}

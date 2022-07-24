@@ -1,16 +1,20 @@
 @font-face {
     font-family: 'Roboto';
-    src: url(font/Roboto-Regular.ttf)
+    src: url(font/Roboto-Regular.ttf);
 }
+@font-face {
+font-family: 'Roboto-ThinItalic';
+    src: url(font/Roboto-LightItalic.ttf);
+}   
+
 html {
     background-color: black;
 }
 * {
     font-family: 'Roboto';
     margin: 0px;
-    
-    
 }
+
 /* Header style section */
 .main-container {
     background-color: #1F2937;
@@ -27,10 +31,10 @@ html {
     color: #F9FAF8;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 25px;
-    border: 2px red;
+    padding-bottom: 75px;
+    /*border: 2px red;
     border-style: dashed;
-    
+    */
 }
 
 h1 {font-size: 24px;
@@ -81,6 +85,10 @@ button {
 
 /* body style section */
 
+body {
+    display: block;
+}
+
 h2 {
     text-align: center;
     padding: 25px 0px;
@@ -111,13 +119,13 @@ h2 {
 }
 
 .kolom1 {
-    width: 175px;
-    gap: 50px;
+    width: 150px;
 }
 .img2 {
     /*border-image-outset: 5px;*/
     border-image: 5px;
    /*   border: 2px blue;*/
+    color: rgb(42, 42, 177);
     border-style: solid;
     border-radius: 10%;
     margin-bottom: 25px;
@@ -125,4 +133,29 @@ h2 {
     height: 150px;
     padding: 2px;
     
+}
+
+.main-container3 {
+    background-color: #E5E7EB;
+    padding-top: 20px; 
+    padding-bottom: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0px 75px;
+    align-items: center;
+}
+
+.quote {
+    font-family: 'Roboto-ThinItalic';
+    font-size: 36px;
+    font: #1f2937;
+    padding-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.quote2 {
+    text-align: right;
+    padding-right: 10%;
+    font-size: 24px;
+    font-weight: bold;
 }

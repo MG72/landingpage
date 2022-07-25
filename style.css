@@ -19,7 +19,6 @@ html {
 .main-container {
     background-color: #1F2937;
     padding-top: 20px; 
-    /*padding-bottom: 200px;*/
     padding-left: 10%;
     padding-right: 10%;
     margin: 0px 75px;
@@ -27,7 +26,6 @@ html {
 
 .container1 {
     display: flex;
-   /*  font-size: 24px;*/
     color: #F9FAF8;
     justify-content: space-between;
     align-items: center;
@@ -56,7 +54,6 @@ color: #F9FAF8;
     align-items: flex-end;
     font-size: 18px;
     font: #E5E7EB;
-   /* padding-right: 10%;*/
     gap: 25px;
 }
 
@@ -100,7 +97,7 @@ h2 {
 .main-container2 {
     background-color: white;
     padding-top: 20px; 
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     padding-left: 10%;
     padding-right: 10%;
     margin: 0px 75px;
@@ -108,23 +105,15 @@ h2 {
 
 .container2 {
     display: flex;
-   /*  font-size: 24px;
-    color: #F9FAF8;*/
     justify-content: space-between;
-    /*align-items: center;*/
     padding: 0px 150px 100px 150px;
-    /*padding-bottom: 100px;*/
-    border: 2px green;
-    border-style: dashed; 
 }
 
 .kolom1 {
     width: 150px;
 }
 .img2 {
-    /*border-image-outset: 5px;*/
     border-image: 5px;
-   /*   border: 2px blue;*/
     color: rgb(42, 42, 177);
     border-style: solid;
     border-radius: 10%;
@@ -143,6 +132,8 @@ h2 {
     padding-right: 10%;
     margin: 0px 75px;
     align-items: center;
+    border: 2px purple;
+    border-style: dashed; 
 }
 
 .quote {
@@ -158,4 +149,52 @@ h2 {
     padding-right: 10%;
     font-size: 24px;
     font-weight: bold;
+}
+
+.container3 {
+    display: flex;
+    background-color: #3882f6;
+    height: 150px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 150px 0px 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.action1 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.action2 {
+    color: white;
+}
+.action-button {
+    border: 2px solid white;
+    padding: 5px 35px;   
+    border-radius: 10pt;
+    font-weight: bold;
+    color: white; 
+}
+.action-button:hover {
+    background-color: rgb(255, 251, 0);
+    border: 2px dotted rgb(0, 5, 77);
+    border-radius: 10pt;
+    color:rgb(0, 5, 77);
+    font-weight: bold;
+}
+
+.main-container-header {
+    /*display: flex;*/
+   
+    background-color: #1F2937;
+    padding: 20px;
+    margin: 0px 75px;
+    text-align: center;
+    color: white;
+    
 }

@@ -108,20 +108,18 @@ h2 {
     justify-content: space-between;
     padding: 0px 150px 100px 150px;
 }
-
 .kolom1 {
     width: 150px;
 }
 .img2 {
     border-image: 5px;
-    color: rgb(42, 42, 177);
+    color: #1F2937;
     border-style: solid;
     border-radius: 10%;
     margin-bottom: 25px;
     width: 150px;
     height: 150px;
     padding: 2px;
-    
 }
 
 .main-container3 {
@@ -132,8 +130,6 @@ h2 {
     padding-right: 10%;
     margin: 0px 75px;
     align-items: center;
-    border: 2px purple;
-    border-style: dashed; 
 }
 
 .quote {
@@ -161,7 +157,6 @@ h2 {
     margin: 100px 150px 0px 150px;
     padding-left: 50px;
     padding-right: 50px;
-
 }
 
 .action1 {
@@ -189,12 +184,9 @@ h2 {
 }
 
 .main-container-header {
-    /*display: flex;*/
-   
     background-color: #1F2937;
     padding: 20px;
     margin: 0px 75px;
     text-align: center;
     color: white;
-    
 }
